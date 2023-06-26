@@ -360,7 +360,8 @@ export default function WorkspacesPage() {
           <ButtonsArea>
             <button
               type="submit"
-              className="bg-lime-600 h-50 w-100 p-5 text-white rounded-lg "
+              //className="bg-lime-600 h-50 w-100 p-5 text-white rounded-lg "
+              className="bg-[#00B59C] h-50 w-100 p-5 text-white rounded-lg "
             >
               Salvar
             </button>

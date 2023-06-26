@@ -438,14 +438,15 @@ export default function TeachersPage() {
           <ButtonsArea>
             <button
               type="submit"
-              className="bg-lime-600 h-50 w-100 p-5 text-white rounded-lg "
+              className="bg-[#00B59C] h-50 w-100 p-5 text-white rounded-lg "
             >
               Salvar
             </button>
             {teacherId > 0 && (
               <button
                 type="button"
-                className="bg-red-500 h-50 w-100 p-5 text-white rounded-lg "
+                //className="bg-red-500 h-50 w-100 p-5 text-white rounded-lg "
+                className="bg-[#00B59C] h-50 w-100 p-5 text-white rounded-lg "
                 onClick={deleteTeacherById}
               >
                 Excluir
@@ -455,7 +456,8 @@ export default function TeachersPage() {
               <Link to={`/professores-locais-trabalho/${teacherId}`}>
                 <button
                   type="button"
-                  className="bg-lime-600 h-50 w-100 p-5 text-white rounded-lg "
+                  //className="bg-lime-600 h-50 w-100 p-5 text-white rounded-lg "
+                  className="bg-[#00B59C] h-50 w-100 p-5 text-white rounded-lg "
                 >
                   Locais de trabalho do professor
                 </button>
