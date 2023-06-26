@@ -3,6 +3,7 @@ import LoginPage from "../pages/LoginPage"
 import SignupPage from "../pages/SignupPage"
 import HomePage from "../pages/HomePage"
 import TeachersPage from "../pages/TeachersPage"
+import WorkspacesPage from "../pages/WorkspacesPage"
 
 const router = createBrowserRouter([
   {
@@ -25,10 +26,10 @@ const router = createBrowserRouter([
       //     path:'professores-locais-trabalho/:idTeacher',
       //     element: <ProfessoresLocaisTrabalhoCadastro />
       // },
-      // {
-      //     path: "locais-trabalho-cadastro",
-      //     element: <LocaisTrabalhoCadastro />,
-      // },
+      {
+        path: "locais-trabalho-cadastro",
+        element: <WorkspacesPage />,
+      },
     ],
   },
 ])
