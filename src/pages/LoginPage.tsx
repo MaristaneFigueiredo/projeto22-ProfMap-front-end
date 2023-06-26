@@ -17,6 +17,10 @@ export default function LoginPage() {
 
   async function signin() {
     try {
+      // console.log(
+      //   "process.env.REACT_APP_API_BASEURL",
+      //   process.env.REACT_APP_API_BASEURL
+      // )
       await axios
         .post(`${process.env.REACT_APP_API_BASEURL}/users/sign-in`, {
           email,
