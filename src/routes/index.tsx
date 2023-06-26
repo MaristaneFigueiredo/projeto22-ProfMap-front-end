@@ -4,6 +4,7 @@ import SignupPage from "../pages/SignupPage"
 import HomePage from "../pages/HomePage"
 import TeachersPage from "../pages/TeachersPage"
 import WorkspacesPage from "../pages/WorkspacesPage"
+import TeachersWorkplacesPage from "../pages/TeachersWorkplacesPage"
 
 const router = createBrowserRouter([
   {
@@ -22,10 +23,10 @@ const router = createBrowserRouter([
         path: "professores-cadastro",
         element: <TeachersPage />,
       },
-      // {
-      //     path:'professores-locais-trabalho/:idTeacher',
-      //     element: <ProfessoresLocaisTrabalhoCadastro />
-      // },
+      {
+        path: "professores-locais-trabalho/:idTeacher",
+        element: <TeachersWorkplacesPage />,
+      },
       {
         path: "locais-trabalho-cadastro",
         element: <WorkspacesPage />,
