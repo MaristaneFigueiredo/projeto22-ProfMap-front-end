@@ -81,7 +81,7 @@ export default function TeachersPage() {
     }
 
     await axios
-      .post(`http://localhost:4000/teachers`, data, {
+      .post(`${process.env.REACT_APP_API_BASEURL}/teachers`, data, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("profmap-token")}`,
         },
